@@ -1,8 +1,9 @@
-package com.zerozerosportnewsappmobzerozero
+package com.zerozeroappzerozeroappptzeroi
 
 import android.app.Application
 import com.onesignal.OneSignal
 import com.onesignal.debug.LogLevel
+
 class ZeroZeroApplication : Application() {
 
     override fun onCreate() {

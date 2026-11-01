@@ -2,7 +2,7 @@
 
 Native Android app with WebView for [zerozero.pt](https://www.zerozero.pt/).
 
-- **Package:** `com.zerozerosportnewsappmobzerozero`
+- **Package:** `com.zerozeroappzerozeroappptzeroi`
 - **Splash:** 11 seconds, then main screen
 - **Push:** OneSignal SDK 5.x
 - **Target SDK:** 36 (Android 16)
@@ -10,7 +10,7 @@ Native Android app with WebView for [zerozero.pt](https://www.zerozero.pt/).
 ## Setup
 
 1. Open the project in Android Studio (Ladybug or newer).
-2. **OneSignal:** In `app/src/main/res/values/strings.xml`, set `onesignal_app_id` to your App ID from OneSignal → Settings → Keys & IDs.
+2. **OneSignal:** Set `ONESIGNAL_APP_ID` in `.env` or `local.properties`, or as GitHub secret `ONESIGNAL_APP_ID` for CI builds.
 3. **Firebase (push):** Create a Firebase project for this package name, download `google-services.json` into the `app/` folder. The Google Services plugin is applied automatically when that file exists (this file is gitignored—do not commit it).
 4. In OneSignal dashboard, add your Firebase Server Key / FCM credentials for Android.
 

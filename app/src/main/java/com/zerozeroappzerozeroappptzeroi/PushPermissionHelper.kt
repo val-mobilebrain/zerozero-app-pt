@@ -1,4 +1,4 @@
-package com.zerozerosportnewsappmobzerozero
+package com.zerozeroappzerozeroappptzeroi
 
 import android.Manifest
 import android.content.pm.PackageManager
